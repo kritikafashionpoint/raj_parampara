@@ -5,7 +5,8 @@ import { FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="b-base text-white mt-20">
+        <footer className="bg-[#4D0503] text-white mt-20 ">
+            <div className="w-full h-[3] bg-linear-to-r from-transparent via-amber-300 to-transparent"></div>
             {/* Top */}
             <div className="max-w-[1520] mx-auto lg:px-6 px-4 py-16">
 
@@ -62,13 +63,12 @@ export default function Footer() {
                         </h3>
 
                         <ul className="space-y-3 text-gray-300">
-
-                            <li><Link href="/">Home</Link></li>
-                            <li><Link href="/shop">Shop</Link></li>
-                            <li><Link href="/categories">Categories</Link></li>
-                            <li><Link href="/new-arrivals">New Arrivals</Link></li>
-                            <li><Link href="/best-sellers">Best Sellers</Link></li>
-                            <li><Link href="/about">About Us</Link></li>
+                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/">Home</Link></li>
+                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/shop">Shop</Link></li>
+                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/categories">Categories</Link></li>
+                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/new-arrivals">New Arrivals</Link></li>
+                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/best-sellers">Best Sellers</Link></li>
+                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/about">About Us</Link></li>
 
                         </ul>
 
@@ -83,12 +83,12 @@ export default function Footer() {
 
                         <ul className="space-y-3 text-gray-300">
 
-                            <li><Link href="/contact">Contact Us</Link></li>
-                            <li><Link href="/faq">FAQs</Link></li>
-                            <li><Link href="/shipping-policy">Shipping Policy</Link></li>
-                            <li><Link href="/return-policy">Return & Refund</Link></li>
-                            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                            <li><Link href="/terms">Terms & Conditions</Link></li>
+                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/contact">Contact Us</Link></li>
+                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/faq">FAQs</Link></li>
+                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/shipping-policy">Shipping Policy</Link></li>
+                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/return-policy">Return & Refund</Link></li>
+                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/privacy-policy">Privacy Policy</Link></li>
+                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/terms">Terms & Conditions</Link></li>
 
                         </ul>
 
@@ -107,7 +107,7 @@ export default function Footer() {
 
                                 <MapPin className="mt-1" size={18} />
 
-                                <p>
+                                <p className="poppins">
                                     Jodhpur, Rajasthan <br />
                                     India
                                 </p>
@@ -118,7 +118,7 @@ export default function Footer() {
 
                                 <Phone size={18} />
 
-                                <p>+91 80790 92775</p>
+                                <p className="poppins">+91 80790 92775</p>
 
                             </div>
 
@@ -126,7 +126,7 @@ export default function Footer() {
 
                                 <Mail size={18} />
 
-                                <p>support@rajparampara.com</p>
+                                <p className="poppins">tarunmehra80790@gmail.com</p>
 
                             </div>
 

@@ -61,12 +61,12 @@ export default function Shopbycategory() {
                 <div className='grid lg:grid-cols-8 md:grid-cols-4 grid-cols-3 lg:px-6 px-0 sm:gap-3 mt-7'>
                     {category_data.map((item, index) => {
                         return (
-                            <div key={index} className='border hover:brightness-105 py-3 sm:border-gray-300 border-gray-100 lg:shadow-lg lg:hover:shadow-2xl duration-500 cursor-pointer overflow-hidden'>
+                            <div key={index} className='border hover:-mt-3  hover:brightness-105 py-3 sm:border-gray-300 border-gray-100 lg:shadow-lg lg:hover:shadow-2xl duration-500 cursor-pointer overflow-hidden'>
                                 <img src={item.src} className='w-full lg:h-[120] h-[130]  hover:scale-[1.08] duration-300 object-center object-contain' />
                                 {/* content */}
                                 <div className='bg-white c-base px-3 py-5 '>
-                                    <p className='md:text-md text-lg mb-1 pt-4 line-clamp-1 border-t border-gray-300'>{item.title}</p>
-                                    <p className='poppins text-sm line-clamp-2'>{item.desc}</p>
+                                    <p className='md:text-md font-semibold text-lg mb-1 pt-4 line-clamp-1 border-t border-gray-300'>{item.title}</p>
+                                    <p className='poppins text-gray-600 text-sm line-clamp-2'>{item.desc}</p>
                                 </div>
                             </div>
                         )

@@ -2,7 +2,6 @@
 
 * {
   font-family: "Cinzel", serif;
-  font-weight: 600;
 }
 
 .serif {
@@ -11,13 +10,12 @@
 
 .poppins {
   font-family: 'poppins';
-  font-weight: normal;
 }
 
 .c-base {
-  color: #4D0503;
+  color: #740b08;
 }
-
+y
 .b-base {
-  background: #4D0503;
+  background: #740b08;
 }

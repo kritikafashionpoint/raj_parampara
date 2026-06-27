@@ -14,7 +14,7 @@ export default function Banner() {
 
                 <div className='flex items-center justify-center w-full h-full'>
                     <div className='w-full z-50 '>
-                        <h1 className='c-base lg:text-5xl md:text-4xl text-2xl font-bold text-center'>Tradition of Rajasthan <br /> For the World</h1>
+                        <h1 className='c-base lg:text-5xl md:text-4xl text-2xl font-bold text-center'>Tradition of The <br /> Rajasthan <br /> For the World</h1>
                         <h2 className='c-base text-lg uppercase tracking-widest text-center mt-8 poppins'>Experience the richness of royal craftsmanship, handmade excellence, <br /> and cultural elegance in every product.</h2>
                         <ol className='text-center flex gap-5 justify-center mt-8 poppins text-amber-800 text-2xl'>
                             {sp_heading.map((item, index) => {
@@ -33,7 +33,7 @@ export default function Banner() {
 
             </div>
 
-         
+
 
 
 

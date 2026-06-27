@@ -52,7 +52,7 @@ export default function MobileHeader() {
 
 
 
-                <div className="fixed py-3 bottom-0 left-0 right-0 z-50 border-t border-gray-200 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.08)] lg:hidden">
+                <div className="fixed py-2 bottom-0 left-0 right-0 z-50 border-t border-gray-200 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.08)] lg:hidden">
                     <ul className="flex justify-around items-center h-12">
 
                         <li>

@@ -51,9 +51,9 @@ export default function PcHeader() {
                             className="absoulte top-0 pt-4 -left-10 w-[150] object-contain"
                         />
                         <div className='-ml-5 mt-9 leading-none'>
-                            <span className='c-base text-xl font-semibold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
+                            <span className='c-base text-xl font-bold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
                             <p className='poppins c-base uppercase font-bold tracking-widest text-xs'>From Rajasthan to the world</p>
-                        </div> 
+                        </div>
                     </div>
 
                     <ul className='flex items-center gap-10 '>
