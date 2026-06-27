@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         </link>
       </head>
 
-      <body>
+      <body className="w-screen overflow-x-hidden">
         <MainLayout>
           {children}
         </MainLayout>
