@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import {
     FaHome,
@@ -59,9 +60,11 @@ export default function PcHeader() {
                     <ul className='flex items-center gap-10 '>
                         {header_menu.map((item, index) => {
                             return (
-                                <li key={index} className='flex flex-col gap-1 items-center text-gray-700 hover:text-[#4D0503] poppins uppercase font-light cursor-pointer  duration-100 text-md'>
-                                    <p>{item.icon}</p>
-                                    {item.title}</li>
+                                <Link href={item.link} key={index}>
+                                    <li key={index} className='flex flex-col gap-1 items-center text-gray-700 hover:text-[#4D0503] poppins uppercase font-light cursor-pointer  duration-100 text-md'>
+                                        <p>{item.icon}</p>
+                                        {item.title}</li>
+                                </Link>
                             )
                         })}
 

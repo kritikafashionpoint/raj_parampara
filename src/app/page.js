@@ -1,4 +1,5 @@
 import Banner from "./home/Banner";
+import FAQ from "./home/Faq";
 import MobileBanner from "./home/MobileBanner";
 import NewArr from "./home/NewArr";
 import Shopbycategory from "./home/ShopByCategory";
@@ -10,8 +11,10 @@ export default function Home() {
       <Banner />
       <MobileBanner />
       <Shopbycategory />
-      <WhyChooseUs />
       <NewArr />
+      <WhyChooseUs />
+      <FAQ />
+
     </>
   );
 }

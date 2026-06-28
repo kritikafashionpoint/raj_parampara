@@ -43,8 +43,8 @@ export default function WhyChooseUs() {
                 <div className='grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-7'>
                     {cards.map((item, index) => {
                         return (
-                            <div key={index} className='flex flex-col items-center justify-center w-full px-3 py-5 border border-gray-300 lg:my-10 my-0 bg-white shadow-md hover:shadow-2xl duration-500 relative group hover:scale-[1.01]'>
-                                <div className='w-0 group-hover:w-full duration-1000 h-[4] absolute top-full left-0 bg-amber-900 '></div>
+                            <div key={index} className='flex flex-col items-center justify-center w-full px-3 py-5 border border-gray-300 lg:my-10 my-0 bg-white shadow-md hover:shadow-2xl duration-200 relative group hover:scale-[1.01]'>
+                                <div className='w-0 group-hover:w-full duration-500 h-[4] absolute top-full left-0 bg-amber-900 '></div>
                                 <p className='text-3xl ' >{item.icon}</p>
                                 <h3 className='group-hover:text-[#740b08] duration-300 text-gray-500  text-xl text-center my-4 font-bold'>{item.title}</h3>
                                 <p className='poppins text-[15px] text-center text-gray-600'>{item.desc}</p>
