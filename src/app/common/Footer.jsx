@@ -151,9 +151,9 @@ export default function Footer() {
 
             <div className="border-t border-white/10">
 
-                <div className="max-w-[1700] mx-auto px-5 py-5 flex md:flex-row flex-col justify-between items-center gap-3">
+                <div className="max-w-[1700] mx-auto lg:pb-0 pb-20 px-5 py-5 flex md:flex-row flex-col justify-between items-center gap-3">
 
-                    <p className="text-sm text-gray-300 text-center">
+                    <p className="text-sm text-gray-300 text-center ">
                         © {new Date().getFullYear()} Raj Parampara. All Rights Reserved.
                     </p>
 
