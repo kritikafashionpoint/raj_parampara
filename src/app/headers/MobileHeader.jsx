@@ -79,7 +79,7 @@ export default function MobileHeader() {
                         <li className="relative -mt-8">
                             <Link
                                 href="/shop"
-                                className="w-16 h-16 rounded-full bg-[#7B3F00] shadow-xl flex items-center justify-center text-white border-4 border-white hover:scale-105 duration-300"
+                                className="w-16 h-16 rounded-full b-base shadow-xl flex items-center justify-center text-white border-4 border-white hover:scale-105 duration-300"
                             >
                                 <AiOutlineShopping size={28} />
                             </Link>
@@ -104,6 +104,7 @@ export default function MobileHeader() {
                                 <span className="text-[11px] font-medium">Account</span>
                             </Link>
                         </li>
+
 
                     </ul>
                 </div>

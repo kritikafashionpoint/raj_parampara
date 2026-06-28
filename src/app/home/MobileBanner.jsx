@@ -8,7 +8,7 @@ export default function MobileBanner() {
     ]
     return (
         <div className='lg:hidden block'>
-            <div className='bg-[#f9d897] w-screen h-full py-20 flex items-center justify-center bg-center bg-no-repeat bg-cover text-black opacity-95 relative'>
+            <div className='bg-[#f9d897] p-4 w-screen h-full py-20 flex items-center justify-center bg-center bg-no-repeat bg-cover text-black opacity-95 relative'>
                 {/* <img src='/banner2.png' className='w-full h-[90vh] object-cover object-center opacity-80' /> */}
                 <div className='w-full z-50 '>
                     <h1 className='c-base lg:text-5xl md:text-4xl text-3xl font-bold text-center'>Tradition of Rajasthan <br /> For the World</h1>
