@@ -33,8 +33,8 @@ export default function PcHeader() {
             icon: <FaPhoneAlt />,
         },
         {
-            title: "Become a Seller",
-            link: "/become-a-seller",
+            title: "Be a Seller",
+            link: "/be-a-seller",
             icon: <FaStore />,
         },
     ];
@@ -45,25 +45,28 @@ export default function PcHeader() {
                 <div className='flex h-[70] justify-between items-center '>
 
                     {/* logo */}
-                    <div className='flex  w-fit'>
-                        <img
-                            src="/logo.png"
-                            alt="Raj Parampara"
-                            className="absoulte top-0 pt-4 -left-10 w-[150] object-contain"
-                        />
-                        <div className='-ml-5 mt-9 leading-none'>
-                            <span className='c-base text-xl font-bold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
-                            <p className='poppins c-base uppercase font-bold tracking-widest text-xs'>From Rajasthan to the world</p>
+                    <Link href='/'>
+                        <div className='flex  w-fit'>
+                            <img
+                                src="/logo.png"
+                                alt="Raj Parampara"
+                                className="absoulte top-0 pt-4 -left-10 w-[150] object-contain"
+                            />
+                            <div className='-ml-5 mt-9 leading-none'>
+                                <span className='c-base text-xl font-bold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
+                                <p className='poppins c-base uppercase font-semibold tracking-widest text-xs'>From Rajasthan to the world</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
 
                     <ul className='flex items-center gap-10 '>
                         {header_menu.map((item, index) => {
                             return (
                                 <Link href={item.link} key={index}>
-                                    <li key={index} className='flex flex-col gap-1 items-center text-gray-700 hover:text-[#4D0503] poppins uppercase font-light cursor-pointer  duration-100 text-md'>
+                                    <li key={index} className='flex gap-1 items-center font-normal text-gray-700 hover:text-[#4D0503]  capitalize cursor-pointer duration-300 text-lg'>
                                         <p>{item.icon}</p>
-                                        {item.title}</li>
+                                        <p className='mt-1 poppins'> {item.title}</p>
+                                    </li>
                                 </Link>
                             )
                         })}

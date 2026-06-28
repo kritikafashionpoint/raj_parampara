@@ -30,21 +30,26 @@ export default function WhyChooseUs() {
                 <img src="/banners/b1.jpg" className='w-full h-full lg:mb-0 mb-12 object-cover object-center text-black opacity-95 relative' />
 
                 {/* <div className='w-full h-[2] bg-linear-to-r from-transparent via-[#b91510] to-transparent  mb-7'></div> */}
-                <div className='lg:px-6 px-0'>
-                    <h2 className='mt-3 c-base font-semibold lg:text-4xl md:text-3xl text-2xl'>
-                        Why Choose Raj Parampara
+                <div className='lg:px-6 px-0 flex flex-col gap-3'>
+                    <h2 className='flex items-center gap-0  mt-3 c-base font-semibold lg:text-3xl md:text-3xl text-2xl'>
+                        <div className='w-[5%] h-[1] b-base rounded-full'></div>
+                        <span className='border-l px-2 py-1 border-y w-full'>Why Choose Raj Parampara</span>
+
                     </h2>
 
-                    <p className='poppins lg:text-start text-justify my-3  text-gray-500'>
-                        Experience the beauty of Rajasthan's timeless craftsmanship with premium handcrafted jewellery, ethnic fashion, and traditional accessories. At Raj Parampara, we combine authentic artistry, superior quality, and exceptional customer service to deliver products that celebrate India's rich cultural heritage.
+                    <p className='poppins lg:text-start text-justify  text-gray-500'>
+                        Raj Parampara brings the timeless beauty of Rajasthan to your doorstep with a premium collection of handcrafted artificial jewellery, traditional mojaris, ethnic handbags, home décor, and artisan-made accessories. Every product is inspired by Rajasthan's rich culture, royal heritage, and skilled craftsmanship, offering designs that blend tradition with modern elegance.
+
                     </p>
 
-                    <p className='poppins mt-3 text-gray-500 lg:mb-8'>
-                        Raj Parampara is dedicated to preserving Rajasthan's rich traditions by bringing authentic handcrafted jewellery, ethnic footwear, handbags, home décor, and artisan-made products directly to your doorstep. Every product reflects skilled craftsmanship, premium materials, and timeless designs inspired by royal heritage. With secure shopping, reliable delivery, and a commitment to customer satisfaction, we ensure every purchase is a memorable experience.
+                    <p className='poppins text-gray-500'>
+                        We work with experienced artisans to deliver authentic, high-quality products that reflect the true essence of Rajasthani craftsmanship. From elegant bridal jewellery and traditional accessories to handcrafted home décor and ethnic fashion, every item is carefully selected for its quality, durability, and unique design. With secure payments, trusted delivery, and dedicated customer support, Raj Parampara ensures a safe, reliable, and enjoyable shopping experience across India.
+
                     </p>
 
-                    <p className='poppins lg:text-start text-justify my-3  text-gray-500'>
-                        Experience the beauty of Rajasthan's timeless craftsmanship with premium handcrafted jewellery, ethnic fashion, and traditional accessories. At Raj Parampara, we combine authentic artistry, superior quality, and exceptional customer service to deliver products that celebrate India's rich cultural heritage.
+                    <p className='poppins lg:text-start text-justify mb-5  text-gray-500'>
+                        Whether you're shopping for festive occasions, weddings, cultural celebrations, or everyday ethnic fashion, Raj Parampara offers a carefully curated collection to suit every style. Explore authentic Rajasthani products, celebrate India's artistic heritage, and experience premium craftsmanship with every purchase.
+
                     </p>
 
 

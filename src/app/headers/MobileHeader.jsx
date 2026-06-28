@@ -35,17 +35,19 @@ export default function MobileHeader() {
                 <div className='flex h-[70] justify-between items-center '>
 
                     {/* logo */}
-                    <div className='flex justify-center w-fit'>
-                        <img
-                            src="/logo.png"
-                            alt="Raj Parampara"
-                            className="absoulte top-0 pt-4 -left-10 w-[150] object-contain"
-                        />
-                        <div className='-ml-5 mt-9 leading-none'>
-                            <span className='c-base text-xl font-semibold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
-                            <p className='poppins c-base uppercase font-bold tracking-widest text-[10px]'>From Rajasthan to the world</p>
+                    <Link href='/'>
+                        <div className='flex justify-center w-fit'>
+                            <img
+                                src="/logo.png"
+                                alt="Raj Parampara"
+                                className="absoulte top-0 pt-4 -left-10 w-[150] object-contain"
+                            />
+                            <div className='-ml-5 mt-9 leading-none'>
+                                <span className='c-base text-xl font-semibold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
+                                <p className='poppins c-base uppercase font-bold tracking-widest text-[10px]'>From Rajasthan to the world</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
 
                 </div>
 

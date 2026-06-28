@@ -63,7 +63,7 @@ export default function FAQ() {
                                 </h3>
 
                                 <FiPlus
-                                    className={`transition-transform duration-300 ${active === index ? "rotate-[135deg]" : "rotate-0"
+                                    className={`transition-transform duration-300 ${active === index ? "rotate-135" : "rotate-0"
                                         }`}
                                 />
                             </button>
