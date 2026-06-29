@@ -26,15 +26,15 @@ export default function WhyChooseUs() {
     return (
 
         <section className='w-full h-full bg-white mt-12 '>
-            <div className='grid lg:grid-cols-2 grid-cols-1  items-center justify-between max-w-[1520] mx-auto lg:px-6 px-4'>
+            <div className='grid lg:grid-cols-[40%_auto] grid-cols-1  items-center justify-between max-w-[1520] mx-auto lg:px-6 px-4'>
                 <img src="/banners/b1.jpg" className='w-full h-full lg:mb-0 mb-12 object-cover object-center text-black opacity-95 relative' />
 
                 {/* <div className='w-full h-[2] bg-linear-to-r from-transparent via-[#b91510] to-transparent  mb-7'></div> */}
                 <div className='lg:px-6 px-0 flex flex-col gap-3'>
-                    <h2 className='flex items-center gap-0  mt-3 c-base font-semibold lg:text-3xl md:text-3xl text-2xl'>
-                        <div className='w-[5%] h-[1] b-base rounded-full'></div>
-                        <span className='border-l px-2 py-1 border-y w-full'>Why Choose Raj Parampara</span>
+                    <h2 className='flex items-center mt-3 c-base font-semibold lg:text-4xl md:text-3xl text-2xl'>
 
+                        <div className='w-[5%] h-[2] rounded-full b-base'></div>
+                        Why Choose Raj Parampara
                     </h2>
 
                     <p className='poppins lg:text-start text-justify  text-gray-500'>
@@ -49,7 +49,6 @@ export default function WhyChooseUs() {
 
                     <p className='poppins lg:text-start text-justify mb-5  text-gray-500'>
                         Whether you're shopping for festive occasions, weddings, cultural celebrations, or everyday ethnic fashion, Raj Parampara offers a carefully curated collection to suit every style. Explore authentic Rajasthani products, celebrate India's artistic heritage, and experience premium craftsmanship with every purchase.
-
                     </p>
 
 

@@ -85,11 +85,9 @@ export default function AllCategoriesLandingPage() {
         },
     ];
     return (
-        <section className='w-full h-screen bg-white'>
+        <section className='w-full h-screen bg-white mt-12'>
             <div className='max-w-[1520] mx-auto lg:px-6 px-4'>
-                {H2_Heading('why', '')}
-                d
-                fl
+                {H2_Heading('Categories', '')}
 
             </div>
         </section>

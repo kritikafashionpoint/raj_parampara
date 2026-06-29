@@ -3,6 +3,7 @@ import FAQ from "./home/Faq";
 import MobileBanner from "./home/MobileBanner";
 import NewArr from "./home/NewArr";
 import Shopbycategory from "./home/ShopByCategory";
+import TopSelling from "./home/TopSelling";
 import WhyChooseUs from "./home/WhyChooseUs";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <MobileBanner />
       <Shopbycategory />
       <NewArr />
+      <TopSelling/>
       <WhyChooseUs />
       <FAQ />
 

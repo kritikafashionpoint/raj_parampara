@@ -23,7 +23,7 @@ export default function Footer() {
 
                         <div className='mb-7 -mt-7 leading-none'>
                             <span className=' text-xl font-semibold text-center tracking-[3.5px]'>RAJ PARAMPARA</span>
-                            <p className='poppins uppercase font-bold tracking-widest text-xs'>From Rajasthan to the world</p>
+                            <p className='poppins uppercase font-semibold tracking-widest text-xs mt-1'>From Rajasthan to the world</p>
                         </div>
 
 
