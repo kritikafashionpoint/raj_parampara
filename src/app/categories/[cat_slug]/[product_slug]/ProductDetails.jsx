@@ -31,7 +31,7 @@ export default function ProductDetails() {
 
     return (
         <section className="bg-white py-12">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-[1480] mx-auto lg:px-6 px-4">
 
                 <p className="flex flex-wrap items-center gap-2 text-md text-gray-700 mb-6">
                     <Link href={'/'}>
@@ -51,7 +51,7 @@ export default function ProductDetails() {
                     </Link>
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-12">
+                <div className="grid md:grid-cols-[30%_auto] gap-12">
 
                     {/* Images */}
                     <div>
@@ -87,7 +87,7 @@ export default function ProductDetails() {
                     {/* Product Info */}
                     <div>
 
-                        <h1 className="md:text-4xl text-3xl font-bold text-gray-800">
+                        <h1 className="md:text-4xl text-3xl font-bold text-gray-600">
                             {product.name}
                         </h1>
 
@@ -105,7 +105,7 @@ export default function ProductDetails() {
                         </div>
 
                         <div className="flex items-center gap-4 mt-6">
-                            <span className="text-4xl font-bold text-red-600">
+                            <span className="text-4xl font-bold c-base">
                                 ₹{product.price * quantity}
                             </span>
 
@@ -179,15 +179,13 @@ export default function ProductDetails() {
                                 <Heart />
                             </button>
 
-                            <button className="bg-white border border-gray-600  px-10 py-4  cursor-pointer hover:bg-gray-900 transition">
+                            <button className="bg-white border border-gray-600  px-10 py-4  cursor-pointer hover:bg-gray-300 transition">
                                 Add To Cart
                             </button>
 
                             <button className="b-base text-white px-10 py-4  hover:brightness-150 cursor-pointer transition">
                                 Buy Now
                             </button>
-
-
 
                         </div>
 

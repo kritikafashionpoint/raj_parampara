@@ -1,5 +1,7 @@
-import React from 'react'
-import { H2_Heading } from '../H2_headings/H2_headings';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { H2_Heading } from "../H2_headings/H2_headings";
 
 export default function AllCategoriesLandingPage() {
     const categories = [
@@ -84,12 +86,52 @@ export default function AllCategoriesLandingPage() {
             src: "/banners/b1.jpg",
         },
     ];
-    return (
-        <section className='w-full h-screen bg-white mt-12'>
-            <div className='max-w-[1520] mx-auto lg:px-6 px-4'>
-                {H2_Heading('Categories', '')}
 
+    return (
+        <section className="w-full bg-white lg:py-14 py-10">
+            <div className="max-w-[1520] mx-auto lg:px-6 px-4">
+
+                {H2_Heading("Shop By Categories", "")}
+
+                <div className="grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 gap-5 mt-10">
+
+                    {categories.map((item, index) => (
+                        <Link
+                            key={index}
+                            href={`/categories/${item.slug}`}
+                            className="group relative overflow-hidden bg-gray-100"
+                        >
+                            <div className="relative w-full lg:h-[380px] md:h-[320px] h-[230px]">
+
+                                <Image
+                                    src={item.src}
+                                    alt={item.title}
+                                    fill
+                                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+
+                                {/* Overlay */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+
+                                {/* Category Name */}
+                                <div className="absolute bottom-0 left-0 right-0 p-6">
+
+                                    <h3 className="text-white lg:text-2xl text-lg font-semibold uppercase tracking-wider">
+                                        {item.title}
+                                    </h3>
+
+                                    <span className="inline-block mt-2 text-sm text-white border-b border-white group-hover:tracking-widest transition-all duration-300">
+                                        Explore →
+                                    </span>
+
+                                </div>
+
+                            </div>
+                        </Link>
+                    ))}
+
+                </div>
             </div>
         </section>
-    )
+    );
 }

@@ -80,11 +80,11 @@ export default function NewArr() {
     ];
     return (
         <section className='w-full h-full bg-white mt-10'>
-            <div className='max-w-[1520] mx-auto'>
+            <div className='max-w-[1520] mx-auto lg:px-6 px-4'>
 
                 {H2_Heading('New Arrivals', `Explore authentic Rajasthani product categories including artificial jewellery, ethnic footwear, traditional clothing, handbags, handicrafts, and home decor. Discover premium handcrafted products inspired by Rajasthan's rich culture and heritage.`)}
 
-                <div className='grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 lg:px-6 px-0 sm:gap-5 my-7'>
+                <div className='grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-5 my-7'>
                     {product_data.slice(0, 6).map((item, index) => {
                         return (
                             <ProductCard key={index} item={item} index={index} />

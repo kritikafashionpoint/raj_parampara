@@ -1,6 +1,6 @@
 export const H2_Heading = (title, description) => {
     return (
-        <div className='lg:px-6 px-4'>
+        <div className=''>
             <h2 className='c-base font-semibold lg:text-4xl md:text-3xl text-2xl'>
                 {title}
             </h2>

@@ -63,12 +63,12 @@ export default function Footer() {
                         </h3>
 
                         <ul className="space-y-3 text-gray-300">
-                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/">Home</Link></li>
-                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/shop">Shop</Link></li>
-                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/categories">Categories</Link></li>
-                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/new-arrivals">New Arrivals</Link></li>
-                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/best-sellers">Best Sellers</Link></li>
-                            <li className="poppins hover:text-white duration-100 "><Link className="poppins" href="/about">About Us</Link></li>
+                            <li className="poppins duration-100 hover:text-amber-300 "><Link className="poppins" href="/">Home</Link></li>
+                            <li className="poppins duration-100 hover:text-amber-300 "><Link className="poppins" href="/shop">Shop</Link></li>
+                            <li className="poppins duration-100 hover:text-amber-300 "><Link className="poppins" href="/categories">Categories</Link></li>
+                            <li className="poppins duration-100 hover:text-amber-300 "><Link className="poppins" href="/new-arrivals">New Arrivals</Link></li>
+                            <li className="poppins duration-100 hover:text-amber-300 "><Link className="poppins" href="/best-sellers">Best Sellers</Link></li>
+                            <li className="poppins duration-100 hover:text-amber-300 "><Link className="poppins" href="/about">About Us</Link></li>
 
                         </ul>
 
@@ -83,12 +83,12 @@ export default function Footer() {
 
                         <ul className="space-y-3 text-gray-300">
 
-                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/contact">Contact Us</Link></li>
-                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/faq">FAQs</Link></li>
-                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/shipping-policy">Shipping Policy</Link></li>
-                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/return-policy">Return & Refund</Link></li>
-                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/privacy-policy">Privacy Policy</Link></li>
-                            <li className="hover:text-white duration-100 "><Link className="poppins" href="/terms">Terms & Conditions</Link></li>
+                            <li className="hover:text-amber-300 duration-100 "><Link className="poppins" href="/contact">Contact Us</Link></li>
+                            <li className="hover:text-amber-300 duration-100 "><Link className="poppins" href="/faq">FAQs</Link></li>
+                            <li className="hover:text-amber-300 duration-100 "><Link className="poppins" href="/shipping-policy">Shipping Policy</Link></li>
+                            <li className="hover:text-amber-300 duration-100 "><Link className="poppins" href="/return-policy">Return & Refund</Link></li>
+                            <li className="hover:text-amber-300 duration-100 "><Link className="poppins" href="/privacy-policy">Privacy Policy</Link></li>
+                            <li className="hover:text-amber-300 duration-100 "><Link className="poppins" href="/terms">Terms & Conditions</Link></li>
 
                         </ul>
 
@@ -103,30 +103,30 @@ export default function Footer() {
 
                         <div className="space-y-5 text-gray-300">
 
-                            <div className="flex gap-3">
+                            <div className="flex gap-3 group cursor-pointer">
 
-                                <MapPin className="mt-1" size={18} />
+                                <MapPin className="mt-1 group-hover:text-amber-300" size={18} />
 
-                                <p className="poppins">
+                                <p className="poppins group-hover:text-amber-300">
                                     Jodhpur, Rajasthan <br />
                                     India
                                 </p>
 
                             </div>
 
-                            <div className="flex gap-3">
+                            <div className="flex gap-3 group cursor-pointer">
 
-                                <Phone size={18} />
+                                <Phone className="mt-1 group-hover:text-amber-300" size={18} />
 
-                                <p className="poppins">+91 80790 92775</p>
+                                <p className="poppins group-hover:text-amber-300">+91 80790 92775</p>
 
                             </div>
 
-                            <div className="flex gap-3">
+                            <div className="flex  gap-3 group">
 
-                                <Mail size={18} />
+                                <Mail className="mt-1 group-hover:text-amber-300" size={18} />
 
-                                <p className="poppins">tarunmehra80790@gmail.com</p>
+                                <p className="poppins group-hover:text-amber-300">tarunmehra80790@gmail.com</p>
 
                             </div>
 
@@ -136,7 +136,7 @@ export default function Footer() {
 
                 </div>
 
-                <p className="text-sm lg:text-center text-start  leading-7 text-gray-300 poppins mt-10 tracking-widest">
+                <p className="text-sm lg:text-center text-start  leading-7 text-gray-300 mt-10 tracking-widest">
                     Raj Parampara brings authentic Rajasthani craftsmanship to your
                     doorstep. Explore premium artificial jewellery, traditional
                     mojaris, handbags, home décor and handcrafted products inspired by
